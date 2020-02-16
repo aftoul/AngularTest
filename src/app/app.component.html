@@ -1,0 +1,10 @@
+<ul>
+	<li *ngFor="let obj of data" (click)="setData(obj);">{{obj.name}}</li>
+</ul>
+
+<div style="background-color: #a00;">
+	<p>Nom : {{current.name}}</p>
+	<p>Nom d'utilisateur : {{current.username}}</p>
+	<p>Phone : {{current.phone}}</p>
+	<p>Website : {{current.website}}</p>
+</div>
